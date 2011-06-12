@@ -1,0 +1,5 @@
+D:\Github\xVancl.Framework\xVancl.Framework.Caching\bin\Debug\xVancl.Framework.Caching.dll
+D:\Github\xVancl.Framework\xVancl.Framework.Caching\bin\Debug\xVancl.Framework.Caching.pdb
+D:\Github\xVancl.Framework\xVancl.Framework.Caching\obj\Debug\ResolveAssemblyReference.cache
+D:\Github\xVancl.Framework\xVancl.Framework.Caching\obj\Debug\xVancl.Framework.Caching.dll
+D:\Github\xVancl.Framework\xVancl.Framework.Caching\obj\Debug\xVancl.Framework.Caching.pdb

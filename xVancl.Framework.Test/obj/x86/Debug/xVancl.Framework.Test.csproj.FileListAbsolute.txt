@@ -1,0 +1,6 @@
+D:\Github\xVancl.Framework\xVancl.Framework.Test\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Github\xVancl.Framework\xVancl.Framework.Test\bin\Debug\xVancl.Framework.Test.exe.config
+D:\Github\xVancl.Framework\xVancl.Framework.Test\bin\Debug\xVancl.Framework.Test.exe
+D:\Github\xVancl.Framework\xVancl.Framework.Test\bin\Debug\xVancl.Framework.Test.pdb
+D:\Github\xVancl.Framework\xVancl.Framework.Test\obj\x86\Debug\xVancl.Framework.Test.exe
+D:\Github\xVancl.Framework\xVancl.Framework.Test\obj\x86\Debug\xVancl.Framework.Test.pdb
