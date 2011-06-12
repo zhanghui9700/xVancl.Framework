@@ -1,0 +1,3 @@
+this is a project of vancl logistic
+include:
+1.caching(memcached,mongoDB,redis,and so on)
