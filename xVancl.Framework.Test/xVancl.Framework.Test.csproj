@@ -48,9 +48,9 @@
   <ItemGroup>
     <Compile Include="CachingTest\Operations\GetOperation.cs" />
     <Compile Include="CachingTest\Operations\ItemOperation.cs" />
-    <Compile Include="CachingTest\MemcachedCachingTest.cs" />
     <Compile Include="CachingTest\MemcachedClient.cs" />
     <Compile Include="CachingTest\Operations\Operation.cs" />
+    <Compile Include="CachingTest\Operations\SetOperation.cs" />
     <Compile Include="CachingTest\PooledSocket.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

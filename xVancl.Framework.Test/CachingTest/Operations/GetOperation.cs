@@ -104,7 +104,8 @@ namespace xVancl.Framework.Test
 	internal class GetResponse
 	{
 		private GetResponse() { }
-		public GetResponse(string key, ushort flags, ulong casValue, byte[] data) : this(key, flags, casValue, data, 0, data.Length) { }
+		public GetResponse(string key, ushort flags, ulong casValue, byte[] data) : 
+			this(key, flags, casValue, data, 0, data.Length) { }
 
 		public GetResponse(string key, ushort flags, ulong casValue, byte[] data, int offset, int count)
 		{

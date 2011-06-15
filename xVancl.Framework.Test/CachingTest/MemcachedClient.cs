@@ -17,5 +17,14 @@ namespace xVancl.Framework.Test
 				return g.Result;
 			}
 		}
+
+		public Boolean Set(String key,object value)
+		{
+			using (SetOperation s = new SetOperation(key,value,this.socket))
+			{
+				s.Execute();
+				return s.Success;
+			}
+		}
 	}
 }
