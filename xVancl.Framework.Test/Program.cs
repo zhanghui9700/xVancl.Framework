@@ -11,8 +11,9 @@ namespace xVancl.Framework.Test
 	{
 		static void Main(string[] args)
 		{
-			MemcachedClient_Get_Test();
+			//MemcachedClient_Get_Test();
 			//MemcachedClient_Set_Test();
+			MemcachedClient_Delete_Test();
 
 			Console.WriteLine("done...");
 			Console.ReadKey();
@@ -42,6 +43,12 @@ namespace xVancl.Framework.Test
 			MemcachedClient client = new MemcachedClient();
 			client.Set("foo1", new Person { Name="zhanghui",Age=27 });
 
+		}
+
+		private static void MemcachedClient_Delete_Test()
+		{
+			MemcachedClient client = new MemcachedClient();
+			client.Delete("foo1");
 		}
 	}
 

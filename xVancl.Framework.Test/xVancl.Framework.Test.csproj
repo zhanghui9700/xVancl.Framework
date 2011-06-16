@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CachingTest\Operations\DeleteOperation.cs" />
     <Compile Include="CachingTest\Operations\GetOperation.cs" />
     <Compile Include="CachingTest\Operations\ItemOperation.cs" />
     <Compile Include="CachingTest\MemcachedClient.cs" />

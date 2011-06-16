@@ -26,5 +26,13 @@ namespace xVancl.Framework.Test
 				return s.Success;
 			}
 		}
+
+		public void Delete(String key)
+		{
+			using (DeleteOperation d = new DeleteOperation(key,this.socket))
+			{
+				d.Execute();
+			}
+		}
 	}
 }

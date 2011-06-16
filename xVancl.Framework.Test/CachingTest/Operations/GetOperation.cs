@@ -8,6 +8,15 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace xVancl.Framework.Test
 {
+	/// <summary>
+	/// memcached get command:
+	/// Q:get key\r\n
+	/// R:VALUE {key} {flag} {dataLength}\r\n
+	///   data\r\n
+	///   END\r\n
+	///	Or:END\r\n(not key's vlaue)
+	/// </summary>
+	/// <returns></returns>
 	class GetOperation : ItemOperation
 	{
 		public GetOperation(String key, PooledSocket socket)

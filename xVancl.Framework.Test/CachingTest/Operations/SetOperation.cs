@@ -5,6 +5,14 @@ using System.Text;
 
 namespace xVancl.Framework.Test
 {
+	/// <summary>
+	/// memcached set command:
+	/// Q:set {key} {flag} {expires} {dataLength}\r\n
+	///   data\r\n
+	/// R:STORED\r\n(if stored success)
+	///   CLIENT_ERROR(if bed data chunk)
+	/// </summary>
+	/// <returns></returns>
 	class SetOperation : ItemOperation
 	{
 		object value;
@@ -13,7 +21,7 @@ namespace xVancl.Framework.Test
 		{
 			this.value = value;
 		}
-
+		
 		protected override bool ExecuteAction()
 		{
 			ITranscoder transcode = new DefaultTranscoder();
